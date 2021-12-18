@@ -1,0 +1,99 @@
+header {
+	background-color: cyan;
+	padding: 20px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+}
+
+.logo {
+	font-size: 32px;
+	vertical-align: middle;
+	margin-right: 50px;
+}
+
+nav {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+/*section 2*/
+h2 {
+	font-size: 40px;
+}
+
+.section-1 {
+	margin-top: 72px;
+}
+
+/*section 3*/
+.section-2 {
+	margin-top: 100px;
+}
+
+.relative {
+	position: relative;
+	width: 500px;
+	height: 500px;
+	background-color: red;
+}
+
+.absolute {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+}
+
+
+.absolute.blue {
+	background-color: blue;
+	top: 25px;
+	left: 25px;
+	z-index: 2;
+}
+
+.absolute.yellow {
+	background-color: yellow;
+	top: 50px;
+	left: 50px;
+	z-index: 1;
+
+}
+
+.absolute.black {
+	background-color: black;
+	top: 0;
+	left: 0;
+	z-index: 1;
+
+}
+
+/*section-3*/
+.section-3 {
+	margin-top: 100px;
+}
+
+.wrapper {
+	position: relative;
+	display: inline-block;
+}
+
+h1 {
+	position: absolute;
+	font-size: 42px;
+	color: red;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
